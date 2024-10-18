@@ -44,10 +44,10 @@ import java.util.List;
 public class TetraTable extends AbstractWorkbenchBlock
 {
     private static final VoxelShape SHAPE_TOP = Block.box(0.0D, 12.0D, 0.0D, 16.0D, 16.0D, 16.0D);
-    private static final VoxelShape SHAPE_LEG1 = Block.box(0.0D, 0.0D, 11.0D, 5.0D, 12.0D, 16.0D);
-    private static final VoxelShape SHAPE_LEG2 = Block.box(11.0D, 0.0D, 0.0D, 16.0D, 12.0D, 5.0D);
-    private static final VoxelShape SHAPE_LEG3 = Block.box(0.0D, 0.0D, 0.0D, 5.0D, 12.0D, 5.0D);
-    private static final VoxelShape SHAPE_LEG4 = Block.box(11.0D, 0.0D, 11.0D, 16.0D, 12.0D, 16.0D);
+    private static final VoxelShape SHAPE_LEG1 = Block.box(0.0D, 0.0D, 12.0D, 4.0D, 12.0D, 16.0D);
+    private static final VoxelShape SHAPE_LEG2 = Block.box(12.0D, 0.0D, 0.0D, 16.0D, 12.0D, 4.0D);
+    private static final VoxelShape SHAPE_LEG3 = Block.box(0.0D, 0.0D, 0.0D, 4.0D, 12.0D, 4.0D);
+    private static final VoxelShape SHAPE_LEG4 = Block.box(12.0D, 0.0D, 12.0D, 16.0D, 12.0D, 16.0D);
     //Made SHAPE_HANDSOME not final so that it can be modified depending on if handsome is installed.
     private static final VoxelShape SHAPE_HANDSOME = Shapes.or(SHAPE_TOP, SHAPE_LEG1, SHAPE_LEG2, SHAPE_LEG3, SHAPE_LEG4);
     private static final VoxelShape SHAPE_DEFAULT = Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D);
