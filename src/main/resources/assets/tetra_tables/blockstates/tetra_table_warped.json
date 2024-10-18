@@ -1,6 +1,12 @@
 {
+    "__comment": "Includes Handsome Variance",
     "variants":
     {
-        "": { "model": "tetra_tables:block/tetra_table_warped" }
+        "handsome=true": {
+            "model": "tetra_tables:block/tetra_table_warped_handsome"
+        },
+        "handsome=false": {
+            "model": "tetra_tables:block/tetra_table_warped_default"
+        }
     }
 }

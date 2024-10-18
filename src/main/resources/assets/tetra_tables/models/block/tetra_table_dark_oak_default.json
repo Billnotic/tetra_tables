@@ -1,0 +1,12 @@
+{
+    "parent": "tetra_tables:block/tetra_table_template_default",
+    "textures": {
+        "particle": "tetra_tables:block/dark_oak_crafting_table_side",
+        "down": "block/dark_oak_planks",
+        "up": "tetra_tables:block/dark_oak_crafting_table_top",
+        "north": "tetra_tables:block/dark_oak_crafting_table_side",
+        "east": "tetra_tables:block/dark_oak_crafting_table_side",
+        "south": "tetra_tables:block/dark_oak_crafting_table_side",
+        "west": "tetra_tables:block/dark_oak_crafting_table_side"
+    }
+}

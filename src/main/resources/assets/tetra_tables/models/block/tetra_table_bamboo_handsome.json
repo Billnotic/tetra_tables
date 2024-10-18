@@ -1,0 +1,8 @@
+{
+	"parent": "tetra_tables:block/tetra_table_template_handsome",
+	"textures": {
+		"particle": "minecraft:block/bamboo_planks",
+		"oak_planks": "minecraft:block/bamboo_planks",
+		"stripped_oak_log": "minecraft:block/stripped_bamboo_block"
+	}
+}

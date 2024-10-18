@@ -1,5 +1,6 @@
 package moonfather.tetra_tables.blocks;
 
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -9,6 +10,7 @@ import net.minecraft.world.level.block.Block;
 import org.jetbrains.annotations.NotNull;
 
 import javax.annotation.Nullable;
+import java.awt.*;
 
 public class WoodenBlockItem extends BlockItem
 {
@@ -30,4 +32,9 @@ public class WoodenBlockItem extends BlockItem
         return burnTime;
     }
     private final int burnTime; // plank is 300
+
+    //@Override
+    //public Component getName(ItemStack stack) {
+    //    return new TextComponent("Tetra Table (" + this. + ")"); // Create a dynamic name
+    //}
 }

@@ -1,6 +1,7 @@
 plugins {
     id 'eclipse'
     id 'idea'
+    id 'java'
     id 'maven-publish'
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
     id 'org.spongepowered.mixin' version '0.7.+'
@@ -151,9 +152,9 @@ repositories {
     // If you have mod jar dependencies in ./libs, you can declare them as a repository like so.
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html#sub:flat_dir_resolver
     flatDir {
-         dir 'libs1201'
+        dir 'libs1201'
     }
-	maven {
+    maven {
         url = "https://www.cursemaven.com"
     }
 }
@@ -161,16 +162,20 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-	implementation fg.deobf("curse.maven:workshop-for-handsome-adventurer-875843:5713529")
-	runtimeOnly fg.deobf("curse.maven:emi-580555:5793030")
-	runtimeOnly fg.deobf("curse.maven:variant-crafting-tables-565095:4585921")
-	runtimeOnly fg.deobf("curse.maven:more-crafting-tables-for-forge-417365:5286505")
+    implementation fg.deobf("curse.maven:workshop-for-handsome-adventurer-875843:5713529")
+    runtimeOnly fg.deobf("curse.maven:emi-580555:5793030")
+    runtimeOnly fg.deobf("curse.maven:variant-crafting-tables-565095:4585921")
+    runtimeOnly fg.deobf("curse.maven:more-crafting-tables-for-forge-417365:5286505")
 
-	implementation fg.deobf("curse.maven:tetra-289712:4857842")
-	runtimeOnly fg.deobf("curse.maven:mutil-351914:4824501")
-	
-	runtimeOnly fg.deobf("curse.maven:biomes-o-plenty-220318:4764804")
-	runtimeOnly fg.deobf("curse.maven:terrablender-563928:4647094")
+    implementation fg.deobf("curse.maven:tetra-289712:4857842")
+    runtimeOnly fg.deobf("curse.maven:mutil-351914:4824501")
+
+    runtimeOnly fg.deobf("curse.maven:biomes-o-plenty-220318:4764804")
+    runtimeOnly fg.deobf("curse.maven:terrablender-563928:4647094")
+    runtimeOnly fg.deobf("curse.maven:everycomp-628539:5812510")
+    //runtimeOnly files("mods/everycomp-1.20-2.6.84H.jar")
+    implementation fg.deobf("curse.maven:moonlight-499980:5811604")
+    runtimeOnly fg.deobf("curse.maven:domum-527361:5764067")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
@@ -230,4 +235,4 @@ publishing {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
-} 
+}

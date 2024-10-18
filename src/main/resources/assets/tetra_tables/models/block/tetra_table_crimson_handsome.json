@@ -1,5 +1,5 @@
 {
-    "parent": "tetra_tables:block/tetra_table_template",
+    "parent": "tetra_tables:block/tetra_table_template_handsome",
     "textures": {
         "particle": "minecraft:block/crimson_planks",
         "oak_planks": "minecraft:block/crimson_planks",

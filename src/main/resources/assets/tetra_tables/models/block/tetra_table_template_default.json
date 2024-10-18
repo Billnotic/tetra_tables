@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "particle": "tetra_tables:block/template_crafting_table_side",
+        "down": "block/template_planks",
+        "up": "tetra_tables:block/template_crafting_table_top",
+        "north": "tetra_tables:block/template_crafting_table_side",
+        "east": "tetra_tables:block/template_crafting_table_side",
+        "south": "tetra_tables:block/template_crafting_table_side",
+        "west": "tetra_tables:block/template_crafting_table_side"
+    }
+}

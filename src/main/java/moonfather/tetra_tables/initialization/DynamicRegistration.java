@@ -22,7 +22,7 @@ public class DynamicRegistration
         {
             return;
         }
-        if (! ModList.get().isLoaded("workshop_for_handsome_adventurer"))
+        if (! ModList.get().isLoaded("workshop_for_handsome_adventurer") || ModList.get().isLoaded("everycomp"))
         {
             return;
         }

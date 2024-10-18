@@ -1,6 +1,12 @@
 {
+    "__comment": "Includes Handsome Variance",
     "variants":
     {
-        "": { "model": "tetra_tables:block/tetra_table_bamboo" }
+        "handsome=true": {
+            "model": "tetra_tables:block/tetra_table_bamboo_handsome"
+        },
+        "handsome=false": {
+            "model": "tetra_tables:block/tetra_table_bamboo_default"
+        }
     }
 }

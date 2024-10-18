@@ -1,6 +1,7 @@
 package moonfather.tetra_tables.initialization;
 
 import moonfather.workshop_for_handsome_adventurer.dynamic_resources.WoodTypeLister;
+import net.minecraftforge.fml.ModList;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
